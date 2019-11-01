@@ -1,6 +1,7 @@
 <?php 
 
 class Article{
+    // Function will be used outside of class to collect all articles
     public function fetch_all() {
         global $pdo; 
 
@@ -11,6 +12,7 @@ class Article{
         return $query->fetchAll();
     }
 
+    // Function will be used outside of class to collect a specific article
     public function fetch_data($article_id) {
         global $pdo;
 

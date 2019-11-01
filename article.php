@@ -1,4 +1,5 @@
 <?php 
+    // Connecting to Database and Article class
     include_once('includes/connection.php');
     include_once('includes/article_class.php');
 
